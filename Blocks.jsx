@@ -46,7 +46,7 @@ import {
 import OneBlock from './OneBlock';
 
 
-export default const Blocks = () => {
+const Blocks = () => {
 
   const blocks = [
     {
@@ -260,3 +260,5 @@ export default const Blocks = () => {
     </>
   );
 };
+
+export default Blocks;
