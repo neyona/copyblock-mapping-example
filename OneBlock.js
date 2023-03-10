@@ -1,4 +1,4 @@
-// import React, { useState } from 'react';
+import React from 'react';
 import {
   CopyBlock,
   a11yDark,
@@ -20,8 +20,7 @@ import {
   monokaiSublime,
   monokai,
   nord,
-  // noctisViola, // Noctis Viola does not work. I tried noctisViola and noctisviola
-  // it looks like it  should work though when I looked into the block package.
+  // noctisViola, // Noctis Viola does not work. I tried multiple spellings just in case.
   obsidian,
   ocean,
   paraisoDark,
@@ -126,5 +125,3 @@ const MyCodeComponent = () => (
     </div>
   );
 }
-
-// export default OneBlock;
