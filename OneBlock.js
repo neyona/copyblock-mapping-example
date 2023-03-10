@@ -52,7 +52,7 @@ const MyCodeComponent = () => (
   <CopyBlock
     text="HELLO FROM LITTLE CTHULHU!"
     theme={${block.themeNow}}
-    language="javascript"
+    language="js"
   />
 )`;
 
