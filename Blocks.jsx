@@ -44,8 +44,6 @@ import {
 
 import OneBlock from './OneBlock';
 
-// The following does not work. There is something wrong with it, but it
-// appears to be from the package itself.
 
 export default const Blocks = () => {
 
@@ -246,7 +244,7 @@ export default const Blocks = () => {
       themeNow: 'zenburn'
     },
   ]
-  // Below, there is no margin without the container.
+
   return (
     <>
     {
